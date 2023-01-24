@@ -1,1 +1,1 @@
-web: gunicorn --chdir my_folder my_module:app
+web: gunicorn app:app
