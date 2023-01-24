@@ -1,1 +1,1 @@
- gunicorn app:app
+uvicorn --app:app
